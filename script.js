@@ -160,7 +160,6 @@ const getCityWeather5 = (city) => {
 };
 getCityWeather5(city.value);
 
-
 const getCityWeather6 = (city) => {
   document.querySelector(".text-start");
   fetch(
@@ -185,3 +184,8 @@ const getCityWeather6 = (city) => {
     .catch((err) => console.error(err));
 };
 getCityWeather6(city.value);
+
+let x1 = document.getElementById("cityName");
+x1.style.color = "rgb(13, 110, 253)";
+
+
